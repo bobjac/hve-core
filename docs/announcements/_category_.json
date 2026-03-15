@@ -1,10 +1,10 @@
 {
-  "label": "ADO Backlog",
-  "position": 1,
+  "label": "Announcements",
+  "position": 12,
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "doc",
-    "id": "agents/ado-backlog/README"
+    "id": "announcements/README"
   }
 }
