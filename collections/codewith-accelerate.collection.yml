@@ -1,0 +1,65 @@
+id: codewith-accelerate
+name: hve-codewith-accelerate
+displayName: "HVE Core - CodeWith Accelerate"
+description: "AI-powered agents for privacy-preserving constitution generation and PoC integration for EPS customer engagements"
+maturity: preview
+tags:
+  - constitution
+  - poc
+  - eps
+  - privacy
+  - migration
+items:
+  # Agents
+  - path: .github/agents/codewith-accelerate/code-with-accelerate.agent.md
+    kind: agent
+    maturity: preview
+  - path: .github/agents/codewith-accelerate/subagents/constitution-researcher.agent.md
+    kind: agent
+    maturity: preview
+  - path: .github/agents/codewith-accelerate/subagents/poc-integrator.agent.md
+    kind: agent
+    maturity: preview
+  # Prompts
+  - path: .github/prompts/codewith-accelerate/gen-constitution.prompt.md
+    kind: prompt
+    maturity: preview
+  - path: .github/prompts/codewith-accelerate/gen-constitution-feature.prompt.md
+    kind: prompt
+    maturity: preview
+  - path: .github/prompts/codewith-accelerate/gen-poc-plan.prompt.md
+    kind: prompt
+    maturity: preview
+  - path: .github/prompts/codewith-accelerate/integrate-poc.prompt.md
+    kind: prompt
+    maturity: preview
+  - path: .github/prompts/codewith-accelerate/deliver-constitution.prompt.md
+    kind: prompt
+    maturity: preview
+  - path: .github/prompts/codewith-accelerate/constitution-continue.prompt.md
+    kind: prompt
+    maturity: preview
+  # Instructions
+  - path: .github/instructions/codewith-accelerate/constitution-conventions.instructions.md
+    kind: instruction
+    maturity: preview
+  - path: .github/instructions/codewith-accelerate/poc-integration.instructions.md
+    kind: instruction
+    maturity: preview
+  - path: .github/instructions/codewith-accelerate/privacy-constraints.instructions.md
+    kind: instruction
+    maturity: preview
+  # Skills
+  - path: .github/skills/codewith-accelerate/proprietary-screening
+    kind: skill
+    maturity: preview
+  - path: .github/skills/codewith-accelerate/constitution-validation
+    kind: skill
+    maturity: preview
+  # Shared dependencies
+  - path: .github/instructions/shared/hve-core-location.instructions.md
+    kind: instruction
+  - path: .github/skills/shared/pr-reference
+    kind: skill
+display:
+  ordering: manual

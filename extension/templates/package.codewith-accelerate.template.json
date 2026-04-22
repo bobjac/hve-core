@@ -1,0 +1,25 @@
+{
+  "name": "hve-codewith-accelerate",
+  "displayName": "HVE Core - CodeWith Accelerate",
+  "extensionKind": [
+    "workspace",
+    "ui"
+  ],
+  "version": "3.3.41",
+  "description": "AI-powered agents for privacy-preserving constitution generation and PoC integration for EPS customer engagements",
+  "publisher": "ise-hve-essentials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/hve-core.git"
+  },
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Chat"
+  ],
+  "icon": "icon.png",
+  "contributes": {},
+  "author": "Microsoft",
+  "license": "MIT"
+}
