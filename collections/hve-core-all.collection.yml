@@ -256,9 +256,6 @@ items:
 - path: .github/prompts/security/security-review-llm.prompt.md
   kind: prompt
   maturity: experimental
-- path: .github/prompts/security/security-review-sbd.prompt.md
-  kind: prompt
-  maturity: experimental
 - path: .github/prompts/security/security-review-web.prompt.md
   kind: prompt
   maturity: experimental
@@ -558,12 +555,6 @@ items:
 - path: .github/skills/security/owasp-agentic
   kind: skill
   maturity: experimental
-- path: .github/skills/security/owasp-cicd
-  kind: skill
-  maturity: experimental
-- path: .github/skills/security/owasp-docker
-  kind: skill
-  maturity: experimental
 - path: .github/skills/security/owasp-infrastructure
   kind: skill
   maturity: experimental
@@ -576,14 +567,54 @@ items:
 - path: .github/skills/security/owasp-top-10
   kind: skill
   maturity: experimental
-- path: .github/skills/security/secure-by-design
-  kind: skill
-  maturity: experimental
 - path: .github/skills/security/security-reviewer-formats
   kind: skill
   maturity: experimental
 - path: .github/skills/shared/pr-reference
   kind: skill
+# CodeWith Accelerate
+- path: .github/agents/codewith-accelerate/code-with-accelerate.agent.md
+  kind: agent
+  maturity: preview
+- path: .github/agents/codewith-accelerate/subagents/constitution-researcher.agent.md
+  kind: agent
+  maturity: preview
+- path: .github/agents/codewith-accelerate/subagents/poc-integrator.agent.md
+  kind: agent
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/gen-constitution.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/gen-constitution-feature.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/gen-poc-plan.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/integrate-poc.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/deliver-constitution.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/prompts/codewith-accelerate/constitution-continue.prompt.md
+  kind: prompt
+  maturity: preview
+- path: .github/instructions/codewith-accelerate/constitution-conventions.instructions.md
+  kind: instruction
+  maturity: preview
+- path: .github/instructions/codewith-accelerate/poc-integration.instructions.md
+  kind: instruction
+  maturity: preview
+- path: .github/instructions/codewith-accelerate/privacy-constraints.instructions.md
+  kind: instruction
+  maturity: preview
+- path: .github/skills/codewith-accelerate/proprietary-screening
+  kind: skill
+  maturity: preview
+- path: .github/skills/codewith-accelerate/constitution-validation
+  kind: skill
+  maturity: preview
 display:
   featured: true
   ordering: alpha
