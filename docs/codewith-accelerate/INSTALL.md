@@ -31,6 +31,8 @@ npm ci
 This step discovers the Code With Accelerate artifacts from the collection manifest and generates `extension/package.json`.
 
 ```bash
+pwsh -Command "Install-Module PowerShell-Yaml -Scope CurrentUser -Force"
+
 pwsh ./scripts/extension/Prepare-Extension.ps1 \
   -Channel PreRelease \
   -Collection collections/codewith-accelerate.collection.yml
